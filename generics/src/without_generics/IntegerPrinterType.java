@@ -1,10 +1,10 @@
 package without_generics;
 
-public class IntegerPrinter {
+public class IntegerPrinterType {
 
     Integer thingToPrint;
 
-    public IntegerPrinter(Integer thingToPrint) {
+    public IntegerPrinterType(Integer thingToPrint) {
         this.thingToPrint = thingToPrint;
     }
 

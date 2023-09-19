@@ -1,5 +1,5 @@
 import with_generics.Printer;
-import without_generics.IntegerPrinter;
+import without_generics.IntegerPrinterType;
 import without_generics.StringPrinter;
 
 public class Main {
@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("----------- Without using Generics -----------");
 
-        IntegerPrinter integerPrinter = new IntegerPrinter(23);
+        IntegerPrinterType integerPrinter = new IntegerPrinterType(23);
         integerPrinter.print();
 
         StringPrinter stringPrinter = new StringPrinter("Testing printer");

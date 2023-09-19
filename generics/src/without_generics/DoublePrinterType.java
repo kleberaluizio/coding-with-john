@@ -1,10 +1,10 @@
 package without_generics;
 
-public class DoublePrinter {
+public class DoublePrinterType{
 
     double thingToPrint;
 
-    public DoublePrinter(double thingToPrint) {
+    public DoublePrinterType(double thingToPrint) {
         this.thingToPrint = thingToPrint;
     }
 
